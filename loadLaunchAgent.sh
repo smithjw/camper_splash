@@ -1,4 +1,4 @@
 #!/bin/bash
 
 echo "Loading Launch Agent"
-sudo launchctl load /Library/LaunchAgents/io.fti.caspersplash.launch.plist
+sudo launchctl load /Library/LaunchDaemons/io.fti.caspersplash.launch.plist

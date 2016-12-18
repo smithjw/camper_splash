@@ -1,5 +1,8 @@
 #!/bin/bash
 
+echo "Creating done file"
+touch x~/Library/.CasperSplashDone
+
 echo "Logging user out to force FileVault Encryption"
 # For some reason this 👇 line doesn't work when launched from CasperSplash
 #sudo kill -9 `pgrep loginwindow`
