@@ -1,5 +1,5 @@
 #!/bin/bash
-plist="/Library/LaunchAgents/io.fti.caspersplash.launch.plist"
+plist="/Library/LaunchDaemons/io.fti.caspersplash.launch.plist"
 
 loggedInUser=$(/bin/ls -l /dev/console | /usr/bin/awk '{ print $3 }')
 app="/Library/CasperSplash/CasperSplash.app"
@@ -21,8 +21,8 @@ if [ -f "$app"/Contents/MacOS/CasperSplash ] \
 	
 	# remove and uninstall the launchdaemon
 
-    launchctl remove io.fti.caspersplash.launch
-    rm "$plist"
+    launchctl remove "$plist"
+    rm -f "$plist"
 
 fi
 
