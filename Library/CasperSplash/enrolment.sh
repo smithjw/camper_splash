@@ -1,36 +1,44 @@
 #!/bin/bash
+
+jamfbinary='/usr/bin/which jamf'
+loggedInUser=$(/bin/ls -l /dev/console | /usr/bin/awk '{ print $3 }')
+doneFile="/Users/${loggedInUser}/Library/.CasperSplashDone"
+
+touch "$doneFile"
+
+
 echo "Pulling down FileVault 2 configuration"
-/usr/local/bin/jamf policy -trigger requireFV2
+jamfbinary policy -trigger "requireFV2"
 
 echo "Installing CAmper Assets"
-/usr/local/bin/jamf policy -trigger camperAssets
+jamfbinary policy -trigger "camperAssets"
 
 echo "Installing DockUtil"
-/usr/local/bin/jamf policy -trigger installDockUtil
+jamfbinary policy -trigger "installDockUtil"
 
 echo "Re-enabling LittleSnitch where it had been disabled"
-/usr/local/bin/jamf policy -trigger enableLittleSnitch
+jamfbinary policy -trigger "enableLittleSnitch"
 
 echo "Installing VPN Client"
-/usr/local/bin/jamf policy -trigger installViscosity
+jamfbinary policy -trigger "install-Viscosity"
 
 echo "Installing Zoom"
-/usr/local/bin/jamf policy -trigger installZoom
+jamfbinary policy -trigger "install-Zoom"
 
 echo "Installing Slack"
-/usr/local/bin/jamf policy -trigger installSlack
+jamfbinary policy -trigger "install-Slack"
 
 echo "Installing Google Chrome"
-/usr/local/bin/jamf policy -trigger installChrome
+jamfbinary policy -trigger "install-Google Chrome"
 
 echo "Installing Box Sync client"
-/usr/local/bin/jamf policy -trigger installBox
+jamfbinary policy -trigger "install-Box Sync"
 
 echo "Installing Quip"
-/usr/local/bin/jamf policy -trigger installQuip
+jamfbinary policy -trigger "install-Quip"
 
 echo "Setting up CAmper's Dock"
-/usr/local/bin/jamf policy -trigger setDock
+jamfbinary policy -trigger "setDock"
 
 echo "Updating Inventory"
-/usr/local/bin/jamf policy -trigger updateInventory
+jamfbinary policy -trigger "updateInventory"
