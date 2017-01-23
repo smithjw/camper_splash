@@ -1,8 +1,8 @@
 #!/bin/bash
-plist="/Library/LaunchDaemons/io.fti.caspersplash.launch.plist"
-
 app="/Library/CasperSplash/CasperSplash.app"
-script="/Library/CasperSplash/enrolment.sh"
+loggedInUser=$(/bin/ls -l /dev/console | /usr/bin/awk '{ print $3 }')
+doneFile="/Users/${loggedInUser}/Library/.CasperSplashDone"
+enrolmentScript="/Library/CasperSplash/enrolment.sh"
 
 # Check if:
 # - CasperSplash binary exists (is fully installed)
@@ -16,13 +16,7 @@ if [ -f "$app"/Contents/MacOS/CasperSplash ] \
 	&& [ ! -f "${doneFile}" ]; then
 
     open -a "$app"
-	."$script"
-	
-	# remove and uninstall the launchdaemon
-
-    launchctl remove "$plist"
-    rm -rf "$plist"
-
+	."$enrolmentScript"
 fi
 
 exit 0

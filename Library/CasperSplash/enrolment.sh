@@ -1,11 +1,6 @@
 #!/bin/bash
 
 jamfbinary='/usr/bin/which jamf'
-loggedInUser=$(/bin/ls -l /dev/console | /usr/bin/awk '{ print $3 }')
-doneFile="/Users/${loggedInUser}/Library/.CasperSplashDone"
-
-touch "$doneFile"
-
 
 echo "Pulling down FileVault 2 configuration"
 jamfbinary policy -trigger "requireFV2"

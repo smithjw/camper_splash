@@ -38,7 +38,7 @@
 			<key>canContinue</key>
 			<false/>
 			<key>description</key>
-			<string>Install Slack</string>
+			<string>Communications</string>
 			<key>displayName</key>
 			<string>Slack</string>
 			<key>iconRelativePath</key>
@@ -52,7 +52,7 @@
 			<key>description</key>
 			<string>Web Browser</string>
 			<key>displayName</key>
-			<string>GoogleChrome</string>
+			<string>Google Chrome</string>
 			<key>iconRelativePath</key>
 			<string>Chrome.png</string>
 			<key>packageName</key>
