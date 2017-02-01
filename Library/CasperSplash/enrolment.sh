@@ -1,5 +1,7 @@
 #!/bin/bash
 
+rm -rf /Library/LaunchDaemons/io.fti.caspersplash.launch.plist
+
 jamfbinary="/usr/local/bin/jamf"
 
 echo "Pulling down FileVault 2 configuration"

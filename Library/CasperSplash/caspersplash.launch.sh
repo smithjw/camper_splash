@@ -1,7 +1,7 @@
 #!/bin/bash
 app="/Library/CasperSplash/CasperSplash.app"
 loggedInUser=$(/bin/ls -l /dev/console | /usr/bin/awk '{ print $3 }')
-doneFile="/Users/${loggedInUser}/Library/.CasperSplashDone"
+doneFile="/Users/Shared/.CasperSplashDone"
 enrolmentScript="/Library/CasperSplash/enrolment.sh"
 
 # Check if:

@@ -1,7 +1,6 @@
 #!/bin/bash
 
-loggedInUser=$(/bin/ls -l /dev/console | /usr/bin/awk '{ print $3 }')
-doneFile="/Users/${loggedInUser}/Library/.CasperSplashDone"
+doneFile="/Users/Shared/.CasperSplashDone"
 
 echo "Creating done file"
 touch "$doneFile"
