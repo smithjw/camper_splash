@@ -1,7 +1,7 @@
 #!/bin/bash
 app="/Library/SplashBuddy/SplashBuddy.app"
 loggedInUser=$(/bin/ls -l /dev/console | /usr/bin/awk '{ print $3 }')
-doneFile="/Users/${loggedInUser}/Library/.SplashBuddyDone"
+doneFile="/Users/Shared/.SplashBuddyDone"
 enrolmentScript="/Library/SplashBuddy/enrolment.sh"
 
 # Check if:
