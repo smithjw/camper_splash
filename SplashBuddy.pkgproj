@@ -76,7 +76,7 @@
 													<key>GID</key>
 													<integer>0</integer>
 													<key>PATH</key>
-													<string>Library/CasperSplash/Assets/BoxSync.png</string>
+													<string>Library/SplashBuddy/Assets/BoxSync.png</string>
 													<key>PATH_TYPE</key>
 													<integer>1</integer>
 													<key>PERMISSIONS</key>
@@ -92,7 +92,7 @@
 													<key>GID</key>
 													<integer>0</integer>
 													<key>PATH</key>
-													<string>Library/CasperSplash/Assets/Chrome.png</string>
+													<string>Library/SplashBuddy/Assets/Chrome.png</string>
 													<key>PATH_TYPE</key>
 													<integer>1</integer>
 													<key>PERMISSIONS</key>
@@ -108,7 +108,7 @@
 													<key>GID</key>
 													<integer>0</integer>
 													<key>PATH</key>
-													<string>Library/CasperSplash/Assets/Dock.png</string>
+													<string>Library/SplashBuddy/Assets/Dock.png</string>
 													<key>PATH_TYPE</key>
 													<integer>1</integer>
 													<key>PERMISSIONS</key>
@@ -124,7 +124,7 @@
 													<key>GID</key>
 													<integer>0</integer>
 													<key>PATH</key>
-													<string>Library/CasperSplash/Assets/FileVaultIcon.png</string>
+													<string>Library/SplashBuddy/Assets/FileVaultIcon.png</string>
 													<key>PATH_TYPE</key>
 													<integer>1</integer>
 													<key>PERMISSIONS</key>
@@ -140,7 +140,7 @@
 													<key>GID</key>
 													<integer>0</integer>
 													<key>PATH</key>
-													<string>Library/CasperSplash/Assets/Installer.png</string>
+													<string>Library/SplashBuddy/Assets/Installer.png</string>
 													<key>PATH_TYPE</key>
 													<integer>1</integer>
 													<key>PERMISSIONS</key>
@@ -156,7 +156,7 @@
 													<key>GID</key>
 													<integer>0</integer>
 													<key>PATH</key>
-													<string>Library/CasperSplash/Assets/postInstall.sh</string>
+													<string>Library/SplashBuddy/Assets/postInstall.sh</string>
 													<key>PATH_TYPE</key>
 													<integer>1</integer>
 													<key>PERMISSIONS</key>
@@ -172,7 +172,7 @@
 													<key>GID</key>
 													<integer>0</integer>
 													<key>PATH</key>
-													<string>Library/CasperSplash/Assets/presentation.html</string>
+													<string>Library/SplashBuddy/Assets/presentation.html</string>
 													<key>PATH_TYPE</key>
 													<integer>1</integer>
 													<key>PERMISSIONS</key>
@@ -188,7 +188,7 @@
 													<key>GID</key>
 													<integer>0</integer>
 													<key>PATH</key>
-													<string>Library/CasperSplash/Assets/Quip.png</string>
+													<string>Library/SplashBuddy/Assets/Quip.png</string>
 													<key>PATH_TYPE</key>
 													<integer>1</integer>
 													<key>PERMISSIONS</key>
@@ -204,7 +204,7 @@
 													<key>GID</key>
 													<integer>0</integer>
 													<key>PATH</key>
-													<string>Library/CasperSplash/Assets/Slack.png</string>
+													<string>Library/SplashBuddy/Assets/Slack.png</string>
 													<key>PATH_TYPE</key>
 													<integer>1</integer>
 													<key>PERMISSIONS</key>
@@ -220,7 +220,7 @@
 													<key>GID</key>
 													<integer>0</integer>
 													<key>PATH</key>
-													<string>Library/CasperSplash/Assets/Viscosity.png</string>
+													<string>Library/SplashBuddy/Assets/Viscosity.png</string>
 													<key>PATH_TYPE</key>
 													<integer>1</integer>
 													<key>PERMISSIONS</key>
@@ -236,7 +236,7 @@
 													<key>GID</key>
 													<integer>0</integer>
 													<key>PATH</key>
-													<string>Library/CasperSplash/Assets/Zoom.png</string>
+													<string>Library/SplashBuddy/Assets/Zoom.png</string>
 													<key>PATH_TYPE</key>
 													<integer>1</integer>
 													<key>PERMISSIONS</key>
@@ -266,7 +266,7 @@
 											<key>GID</key>
 											<integer>0</integer>
 											<key>PATH</key>
-											<string>Library/CasperSplash/CasperSplash.app</string>
+											<string>Library/SplashBuddy/SplashBuddy.app</string>
 											<key>PATH_TYPE</key>
 											<integer>1</integer>
 											<key>PERMISSIONS</key>
@@ -282,7 +282,7 @@
 											<key>GID</key>
 											<integer>0</integer>
 											<key>PATH</key>
-											<string>Library/CasperSplash/caspersplash.launch.sh</string>
+											<string>Library/SplashBuddy/SplashBuddy.launch.sh</string>
 											<key>PATH_TYPE</key>
 											<integer>1</integer>
 											<key>PERMISSIONS</key>
@@ -298,7 +298,7 @@
 											<key>GID</key>
 											<integer>0</integer>
 											<key>PATH</key>
-											<string>Library/CasperSplash/enrolment.sh</string>
+											<string>Library/SplashBuddy/enrolment.sh</string>
 											<key>PATH_TYPE</key>
 											<integer>1</integer>
 											<key>PERMISSIONS</key>
@@ -312,7 +312,7 @@
 									<key>GID</key>
 									<integer>0</integer>
 									<key>PATH</key>
-									<string>CasperSplash</string>
+									<string>SplashBuddy</string>
 									<key>PATH_TYPE</key>
 									<integer>0</integer>
 									<key>PERMISSIONS</key>
@@ -443,7 +443,7 @@
 											<key>GID</key>
 											<integer>0</integer>
 											<key>PATH</key>
-											<string>Library/LaunchDaemons/io.fti.caspersplash.launch.plist</string>
+											<string>Library/LaunchDaemons/io.fti.SplashBuddy.launch.plist</string>
 											<key>PATH_TYPE</key>
 											<integer>1</integer>
 											<key>PERMISSIONS</key>
@@ -492,7 +492,7 @@
 											<key>GID</key>
 											<integer>0</integer>
 											<key>PATH</key>
-											<string>Library/Preferences/io.fti.CasperSplash.plist</string>
+											<string>Library/Preferences/io.fti.SplashBuddy.plist</string>
 											<key>PATH_TYPE</key>
 											<integer>1</integer>
 											<key>PERMISSIONS</key>
@@ -729,9 +729,9 @@
 				<key>CONCLUSION_ACTION</key>
 				<integer>0</integer>
 				<key>IDENTIFIER</key>
-				<string>com.cultureamp.pkg.CasperSplash</string>
+				<string>com.cultureamp.pkg.SplashBuddy</string>
 				<key>NAME</key>
-				<string>CasperSplash</string>
+				<string>SplashBuddy</string>
 				<key>OVERWRITE_PERMISSIONS</key>
 				<false/>
 				<key>VERSION</key>
@@ -834,7 +834,7 @@
 						<key>LANGUAGE</key>
 						<string>English</string>
 						<key>VALUE</key>
-						<string>CasperSplash</string>
+						<string>SplashBuddy</string>
 					</dict>
 				</array>
 			</dict>
@@ -1034,7 +1034,7 @@
 				</dict>
 			</array>
 			<key>NAME</key>
-			<string>CasperSplash</string>
+			<string>SplashBuddy</string>
 		</dict>
 	</dict>
 	<key>TYPE</key>

@@ -1,9 +1,8 @@
 #!/bin/bash
 
 jamfbinary='/usr/bin/which jamf'
-
-echo "Pulling down FileVault 2 configuration"
-jamfbinary policy -trigger "requireFV2"
+loggedInUser=$(/bin/ls -l /dev/console | /usr/bin/awk '{ print $3 }')
+doneFile="/Users/${loggedInUser}/Library/.SplashBuddyDone"
 
 echo "Installing CAmper Assets"
 jamfbinary policy -trigger "camperAssets"
@@ -29,11 +28,18 @@ jamfbinary policy -trigger "install-Google Chrome"
 echo "Installing Box Sync client"
 jamfbinary policy -trigger "install-Box Sync"
 
-echo "Installing Quip"
-jamfbinary policy -trigger "install-Quip"
-
 echo "Setting up CAmper's Dock"
 jamfbinary policy -trigger "setDock"
 
+echo "Pulling down FileVault 2 configuration"
+jamfbinary policy -trigger "requireFV2"
+
 echo "Updating Inventory"
 jamfbinary policy -trigger "updateInventory"
+
+echo "Creating done file"
+touch "$doneFile"
+
+echo "Logging user out to force FileVault Encryption"
+
+osascript -e 'tell application "System Events" to keystroke "q" using {command down, option down, shift down}'

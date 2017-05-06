@@ -1,22 +1,29 @@
 #!/bin/bash
-app="/Library/CasperSplash/CasperSplash.app"
+app="/Library/SplashBuddy/SplashBuddy.app"
 loggedInUser=$(/bin/ls -l /dev/console | /usr/bin/awk '{ print $3 }')
-doneFile="/Users/${loggedInUser}/Library/.CasperSplashDone"
-enrolmentScript="/Library/CasperSplash/enrolment.sh"
+doneFile="/Users/${loggedInUser}/Library/.SplashBuddyDone"
+enrolmentScript="/Library/SplashBuddy/enrolment.sh"
 
 # Check if:
-# - CasperSplash binary exists (is fully installed)
+# - SplashBuddy binary exists (is fully installed)
 # - User is in control (not _mbusersetup)
 # - User is on desktop (Finder process exists)
-# - There is no doneFile
+# - Application is not already running
 
-if [ -f "$app"/Contents/MacOS/CasperSplash ] \
+function IsRunning()
+{
+pgrep "SplashBuddy" && return 1 || return 0
+}
+
+if IsRunning && [ -f "$app"/Contents/MacOS/SplashBuddy ] \
 	&& [ "$loggedInUser" != "_mbusersetup" ] \
 	&& [ $(pgrep Finder | wc -l) -gt 0 ] \
 	&& [ ! -f "${doneFile}" ]; then
 
     open -a "$app"
-	."$enrolmentScript"
+    ."$enrolmentScript"
+    launchctl unload /Library/LaunchDaemons/io.fti.splashbuddy.launch.plist
+    rm -f /Library/LaunchDaemons/io.fti.splashbuddy.launch.plist
 fi
 
 exit 0

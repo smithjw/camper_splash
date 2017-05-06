@@ -48,7 +48,7 @@
 		</dict>
 		<dict>
 			<key>canContinue</key>
-			<true/>
+			<false/>
 			<key>description</key>
 			<string>Web Browser</string>
 			<key>displayName</key>
@@ -60,7 +60,7 @@
 		</dict>
 		<dict>
 			<key>canContinue</key>
-			<true/>
+			<false/>
 			<key>description</key>
 			<string>Document Sync</string>
 			<key>displayName</key>
@@ -69,18 +69,6 @@
 			<string>BoxSync.png</string>
 			<key>packageName</key>
 			<string>BoxSync</string>
-		</dict>
-		<dict>
-			<key>canContinue</key>
-			<false/>
-			<key>description</key>
-			<string>Document Collaboration</string>
-			<key>displayName</key>
-			<string>Quip</string>
-			<key>iconRelativePath</key>
-			<string>Quip.png</string>
-			<key>packageName</key>
-			<string>Quip</string>
 		</dict>
 		<dict>
 			<key>canContinue</key>
