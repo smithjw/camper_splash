@@ -40,6 +40,5 @@ ${jamfbinary} policy -trigger "updateInventory"
 echo "Creating done file"
 touch "$doneFile"
 
-echo "Logging user out to force FileVault Encryption"
-
-osascript -e 'tell application "System Events" to keystroke "q" using {command down, option down, shift down}'
+echo "Cleaning up SplashBuddy"
+${jamfbinary} policy -trigger "cleanupSplashBuddy"

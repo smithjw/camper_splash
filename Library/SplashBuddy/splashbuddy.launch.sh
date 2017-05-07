@@ -20,8 +20,11 @@ if IsRunning && [ -f "$app"/Contents/MacOS/SplashBuddy ] \
 	&& [ $(pgrep Finder | wc -l) -gt 0 ] \
 	&& [ ! -f "${doneFile}" ]; then
 
+	echo "Opening SplashBuddy"
     open -a "$app"
-    ."$enrolmentScript"
+    echo "Running enrolment script"
+    sudo "$enrolmentScript"
+    echo "Unloading LaunchDaemon"
     launchctl unload /Library/LaunchDaemons/io.fti.splashbuddy.launch.plist
     rm -f /Library/LaunchDaemons/io.fti.splashbuddy.launch.plist
 fi

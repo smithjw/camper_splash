@@ -94,6 +94,18 @@
 			<key>packageName</key>
 			<string>FV2EnabledMarker</string>
 		</dict>
+		<dict>
+			<key>canContinue</key>
+			<false/>
+			<key>description</key>
+			<string>Removing setup files</string>
+			<key>displayName</key>
+			<string>Cleaning Up</string>
+			<key>iconRelativePath</key>
+			<string>Settings.png</string>
+			<key>packageName</key>
+			<string>Update Inventory</string>
+		</dict>
 	</array>
 </dict>
 </plist>
