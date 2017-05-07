@@ -100,7 +100,7 @@
 			<key>description</key>
 			<string>Removing setup files</string>
 			<key>displayName</key>
-			<string>Cleaning Up</string>
+			<string>JAMF</string>
 			<key>iconRelativePath</key>
 			<string>Settings.png</string>
 			<key>packageName</key>

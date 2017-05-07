@@ -23,10 +23,7 @@ if IsRunning && [ -f "$app"/Contents/MacOS/SplashBuddy ] \
 	echo "Opening SplashBuddy"
     open -a "$app"
     echo "Running enrolment script"
-    sudo "$enrolmentScript"
-    echo "Unloading LaunchDaemon"
-    launchctl unload /Library/LaunchDaemons/io.fti.splashbuddy.launch.plist
-    rm -f /Library/LaunchDaemons/io.fti.splashbuddy.launch.plist
+    ."$enrolmentScript"
 fi
 
 exit 0
