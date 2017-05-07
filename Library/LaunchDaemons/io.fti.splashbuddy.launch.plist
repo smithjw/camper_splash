@@ -10,7 +10,7 @@
     <string>io.fti.splashbuddy.launch</string>
     <key>ProgramArguments</key>
     <array>
-        <string>/Library/SplashBuddy/splashbuddy.launch.sh</string>
+        <string>/Library/Application Support/SplashBuddy/splashbuddy.launch.sh</string>
     </array>
     <key>StandardErrorPath</key>
     <string>/Library/SplashBuddy/splashbuddy.launch.err</string>

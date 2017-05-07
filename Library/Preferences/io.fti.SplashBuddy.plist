@@ -14,18 +14,6 @@
 			<key>canContinue</key>
 			<false/>
 			<key>description</key>
-			<string>Install CAmper Assets</string>
-			<key>displayName</key>
-			<string>CAmper Assets</string>
-			<key>iconRelativePath</key>
-			<string>Installer.png</string>
-			<key>packageName</key>
-			<string>CAmper IT Assets</string>
-		</dict>
-		<dict>
-			<key>canContinue</key>
-			<false/>
-			<key>description</key>
 			<string>Video Conferencing</string>
 			<key>displayName</key>
 			<string>Zoom</string>
@@ -98,9 +86,21 @@
 			<key>canContinue</key>
 			<false/>
 			<key>description</key>
-			<string>Removing setup files</string>
+			<string>Running Inventory</string>
 			<key>displayName</key>
 			<string>JAMF</string>
+			<key>iconRelativePath</key>
+			<string>jamf.png</string>
+			<key>packageName</key>
+			<string>Update Inventory</string>
+		</dict>
+		<dict>
+			<key>canContinue</key>
+			<false/>
+			<key>description</key>
+			<string>Removing setup files</string>
+			<key>displayName</key>
+			<string>Cleaning up</string>
 			<key>iconRelativePath</key>
 			<string>Settings.png</string>
 			<key>packageName</key>

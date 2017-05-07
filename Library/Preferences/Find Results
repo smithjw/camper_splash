@@ -1,0 +1,23 @@
+Searching 44 files for "casper"
+
+/Users/james/code/camper_splash/README.md:
+    1  # CAmper_Splash
+    2  
+    3: CasperSplash project used at Culture Amp
+    4  
+    5  
+
+/Users/james/code/camper_splash/Library/Application Support/SplashBuddy/presentation.html:
+    1  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+    2  	<head>
+    3: 		<title>CasperSplash Test Page</title>
+    4  		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    5  		<style type="text/css">
+    .
+   95  	<p>
+   96  <hr />
+   97: 	<p>If you're seeing this screen for the second time, Hit <tt>OPT+CMD+Q</tt> to quit CasperSplash.</p>
+   98  
+   99  </body>
+
+3 matches across 2 files
