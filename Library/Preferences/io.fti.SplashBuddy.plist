@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>assetPath</key>
-	<string>/Library/CasperSplash/Assets</string>
+	<string>/Library/Application Support/SplashBuddy</string>
 	<key>postInstallAssetPath</key>
 	<string>postInstall.sh</string>
 	<key>htmlPath</key>

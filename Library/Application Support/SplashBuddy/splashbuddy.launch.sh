@@ -1,8 +1,7 @@
 #!/bin/bash
-app="/Library/SplashBuddy/SplashBuddy.app"
+app="/Library/Application Support/SplashBuddy/SplashBuddy.app"
 loggedInUser=$(/bin/ls -l /dev/console | /usr/bin/awk '{ print $3 }')
 doneFile="/Users/Shared/.SplashBuddyDone"
-enrolmentScript="/Library/SplashBuddy/enrolment.sh"
 
 # Check if:
 # - SplashBuddy binary exists (is fully installed)
@@ -10,20 +9,13 @@ enrolmentScript="/Library/SplashBuddy/enrolment.sh"
 # - User is on desktop (Finder process exists)
 # - Application is not already running
 
-function IsRunning()
-{
-pgrep "SplashBuddy" && return 1 || return 0
-}
-
-if IsRunning && [ -f "$app"/Contents/MacOS/SplashBuddy ] \
+if [ -f "$app"/Contents/MacOS/SplashBuddy ] \
 	&& [ "$loggedInUser" != "_mbusersetup" ] \
 	&& [ $(pgrep Finder | wc -l) -gt 0 ] \
 	&& [ ! -f "${doneFile}" ]; then
 
 	echo "Opening SplashBuddy"
-    open -a "$app"
-    echo "Running enrolment script"
-    ."$enrolmentScript"
+	open -a "$app"
 fi
 
 exit 0
