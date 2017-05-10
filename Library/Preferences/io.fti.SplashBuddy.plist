@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>assetPath</key>
+	<string>/Library/Application Support/SplashBuddy</string>
+	<key>postInstallAssetPath</key>
+	<string>postInstall.sh</string>
+	<key>htmlPath</key>
+	<string>presentation.html</string>
+	<key>applicationsArray</key>
+	<array>
+		<dict>
+			<key>canContinue</key>
+			<false/>
+			<key>description</key>
+			<string>Video Conferencing</string>
+			<key>displayName</key>
+			<string>Zoom</string>
+			<key>iconRelativePath</key>
+			<string>Zoom.png</string>
+			<key>packageName</key>
+			<string>Zoom</string>
+		</dict>
+		<dict>
+			<key>canContinue</key>
+			<false/>
+			<key>description</key>
+			<string>Communications</string>
+			<key>displayName</key>
+			<string>Slack</string>
+			<key>iconRelativePath</key>
+			<string>Slack.png</string>
+			<key>packageName</key>
+			<string>Slack</string>
+		</dict>
+		<dict>
+			<key>canContinue</key>
+			<false/>
+			<key>description</key>
+			<string>Web Browser</string>
+			<key>displayName</key>
+			<string>Google Chrome</string>
+			<key>iconRelativePath</key>
+			<string>Chrome.png</string>
+			<key>packageName</key>
+			<string>Google Chrome</string>
+		</dict>
+		<dict>
+			<key>canContinue</key>
+			<false/>
+			<key>description</key>
+			<string>Document Sync</string>
+			<key>displayName</key>
+			<string>Box Sync</string>
+			<key>iconRelativePath</key>
+			<string>BoxSync.png</string>
+			<key>packageName</key>
+			<string>BoxSync</string>
+		</dict>
+		<dict>
+			<key>canContinue</key>
+			<false/>
+			<key>description</key>
+			<string>Setup User Dock</string>
+			<key>displayName</key>
+			<string>Dock</string>
+			<key>iconRelativePath</key>
+			<string>Dock.png</string>
+			<key>packageName</key>
+			<string>Dock</string>
+		</dict>
+		<dict>
+			<key>canContinue</key>
+			<false/>
+			<key>description</key>
+			<string>Enable FileVault</string>
+			<key>displayName</key>
+			<string>FileVault 2</string>
+			<key>iconRelativePath</key>
+			<string>FileVaultIcon.png</string>
+			<key>packageName</key>
+			<string>FV2EnabledMarker</string>
+		</dict>
+		<dict>
+			<key>canContinue</key>
+			<false/>
+			<key>description</key>
+			<string>Running Inventory</string>
+			<key>displayName</key>
+			<string>JAMF</string>
+			<key>iconRelativePath</key>
+			<string>jamf.png</string>
+			<key>packageName</key>
+			<string>Update Inventory</string>
+		</dict>
+		<dict>
+			<key>canContinue</key>
+			<false/>
+			<key>description</key>
+			<string>Removing setup files</string>
+			<key>displayName</key>
+			<string>Cleaning up</string>
+			<key>iconRelativePath</key>
+			<string>Settings.png</string>
+			<key>packageName</key>
+			<string>Update Inventory</string>
+		</dict>
+	</array>
+</dict>
+</plist>
