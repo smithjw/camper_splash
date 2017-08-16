@@ -156,11 +156,11 @@
 													<key>GID</key>
 													<integer>80</integer>
 													<key>PATH</key>
-													<string>Library/Application Support/SplashBuddy/presentation.html</string>
+													<string>Library/Application Support/SplashBuddy/presentation.bundle</string>
 													<key>PATH_TYPE</key>
 													<integer>1</integer>
 													<key>PERMISSIONS</key>
-													<integer>420</integer>
+													<integer>493</integer>
 													<key>TYPE</key>
 													<integer>3</integer>
 													<key>UID</key>
@@ -1509,7 +1509,7 @@
 				<key>OVERWRITE_PERMISSIONS</key>
 				<false/>
 				<key>VERSION</key>
-				<string>1.5</string>
+				<string>1.6.0</string>
 			</dict>
 			<key>UUID</key>
 			<string>27BBAD7F-81EB-4FAF-8666-E55CADDD1431</string>
