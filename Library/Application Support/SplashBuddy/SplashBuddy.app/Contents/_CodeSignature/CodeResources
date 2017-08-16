@@ -6,43 +6,47 @@
 	<dict>
 		<key>Resources/AppIcon.icns</key>
 		<data>
-		d1Nmvp3vgrkQvMghePD5sME2WbQ=
+		TphpLwoSKfOH+zGdYSbPbKj4SZ8=
+		</data>
+		<key>Resources/BackgroundWindow.storyboardc/11N-Zl-h0V-view-P65-EE-Py9.nib</key>
+		<data>
+		Z5ojRSUz17uLrNvm59s7mk61aj8=
+		</data>
+		<key>Resources/BackgroundWindow.storyboardc/Info.plist</key>
+		<data>
+		2/KyYuUM0DRpQlexSl39viv1ILc=
+		</data>
+		<key>Resources/BackgroundWindow.storyboardc/backgroundWindow.nib</key>
+		<data>
+		58JwPDyCLCU2EO+uVePmWWF9IN4=
 		</data>
 		<key>Resources/Base.lproj/Localizable.strings</key>
 		<data>
 		VNozEIkMCw/WKAQyCdx9pAr0Ez4=
 		</data>
-		<key>Resources/Base.lproj/SplashBuddy.storyboardc/67C-xF-QMY-view-t0F-VP-Mjb.nib</key>
-		<data>
-		qrbvyX8klMgTqjpWk50EzvCRE74=
-		</data>
 		<key>Resources/Base.lproj/SplashBuddy.storyboardc/Info.plist</key>
 		<data>
-		/6DBhKzVeOZicB5Vdw3z37zu+Bk=
+		Vi/8QPcU9M6079ICIacvd7uRdhg=
 		</data>
 		<key>Resources/Base.lproj/SplashBuddy.storyboardc/MainMenu.nib</key>
 		<data>
-		KhLWh2WMmeAd88p/oRWzC/OaG+I=
-		</data>
-		<key>Resources/Base.lproj/SplashBuddy.storyboardc/backgroundWindow.nib</key>
-		<data>
-		3lvGsyXIXSmBurIstrOx1ja/NQ4=
+		jSFH4AgBM0vdTo8zGbaqMm20um8=
 		</data>
 		<key>Resources/Base.lproj/SplashBuddy.storyboardc/mainView.nib</key>
 		<data>
-		h5HZFbBKW2PpxIxIt8WmBcvt8eE=
+		9bH4ycBwmcsK9emxCHRP+v++4mA=
 		</data>
 		<key>Resources/Base.lproj/SplashBuddy.storyboardc/mainWindow.nib</key>
 		<data>
-		Sx2ASOQBQtDEGNSjAEkugbAyuSE=
+		1FFmV6w3DWjfbsfBmyOeXe3w2cM=
 		</data>
 		<key>Resources/Base.lproj/SplashBuddy.storyboardc/qDQ-T9-zeE-view-VI7-LS-rJR.nib</key>
 		<data>
-		xb+rxhYYuEkmuYnVwnl8P6AXTBY=
+		49XIaxIfwJDOnaut9THOexsWTEg=
 		</data>
 		<key>Resources/archived-expanded-entitlements.xcent</key>
 		<data>
-		WajPA2B3sb1D6ujh899t1vhoT+8=
+		l+mvR9Qw/OwwVYD2MlpmDebI6AU=
 		</data>
 		<key>Resources/de.lproj/Localizable.strings</key>
 		<dict>
@@ -131,7 +135,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			3f1Mnly3IvlRKegsEqC3Y+NU434=
+			vw9stsdYVDG3Y/sMkNpF2mn5RSA=
 			</data>
 			<key>requirement</key>
 			<string>anchor apple generic and identifier "com.apple.dt.runtime.swiftAppKit" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = EM3ER8T33A)</string>
@@ -140,7 +144,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			9Am0PBMyNmVSnW7M0WpqEHifXf8=
+			DdSme01osVrQCgkdf/1TmDOuCUs=
 			</data>
 			<key>requirement</key>
 			<string>anchor apple generic and identifier "com.apple.dt.runtime.swiftCore" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = EM3ER8T33A)</string>
@@ -149,7 +153,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			sUTuUDfKocQg5N4XGhnDX5UEOy8=
+			veJVk1AvUU5PS2FEEbhPyhvIr2E=
 			</data>
 			<key>requirement</key>
 			<string>anchor apple generic and identifier "com.apple.dt.runtime.swiftCoreData" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = EM3ER8T33A)</string>
@@ -158,7 +162,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			fOKOxTdFU2KjDjyuisx9/SwnXj0=
+			94Q0PXb8F0fluN0WYIMK+xPQ9A4=
 			</data>
 			<key>requirement</key>
 			<string>anchor apple generic and identifier "com.apple.dt.runtime.swiftCoreFoundation" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = EM3ER8T33A)</string>
@@ -167,7 +171,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			gAzhhOeg2qbCMySTisjjx3tpqVA=
+			YTYI+ll1/9OmVj0r+F/FBKlKCm8=
 			</data>
 			<key>requirement</key>
 			<string>anchor apple generic and identifier "com.apple.dt.runtime.swiftCoreGraphics" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = EM3ER8T33A)</string>
@@ -176,7 +180,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			vRxmgAI7guLyMSJWKW4XwrYo8PA=
+			q65JhvRd9XzlY+Ix93YGdg63ufE=
 			</data>
 			<key>requirement</key>
 			<string>anchor apple generic and identifier "com.apple.dt.runtime.swiftCoreImage" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = EM3ER8T33A)</string>
@@ -185,7 +189,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			XnnC/KlccCTMuRiiYrnXk3y+8os=
+			3xiX9y+Bh54WfVGDtctRYLLhhL0=
 			</data>
 			<key>requirement</key>
 			<string>anchor apple generic and identifier "com.apple.dt.runtime.swiftDarwin" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = EM3ER8T33A)</string>
@@ -194,7 +198,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			SHiZzDhKCnd6TVanIJ0VTvOZsAw=
+			M5CggzmVWBZIU3MUqulHKxZMoZs=
 			</data>
 			<key>requirement</key>
 			<string>anchor apple generic and identifier "com.apple.dt.runtime.swiftDispatch" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = EM3ER8T33A)</string>
@@ -203,7 +207,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			g5uey3QTKAnciMPBiX9yQGc5Kfc=
+			e6WHe7TUgPMW5orUgdvR20knla8=
 			</data>
 			<key>requirement</key>
 			<string>anchor apple generic and identifier "com.apple.dt.runtime.swiftFoundation" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = EM3ER8T33A)</string>
@@ -212,7 +216,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			d2bOODnUJXM3wDSOk/hlSP8a9jg=
+			7eEturbNQX+abKYCrUeWen6VXLI=
 			</data>
 			<key>requirement</key>
 			<string>anchor apple generic and identifier "com.apple.dt.runtime.swiftIOKit" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = EM3ER8T33A)</string>
@@ -221,7 +225,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			oP6n1fXGK2vd/D1UWP1NO1x7XdI=
+			sjSnXMJ9rPlDkUCPGuNZ23IcmUQ=
 			</data>
 			<key>requirement</key>
 			<string>anchor apple generic and identifier "com.apple.dt.runtime.swiftObjectiveC" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = EM3ER8T33A)</string>
@@ -230,7 +234,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			Z7PBtFCpmBJESQE7uhGK9EUCedw=
+			krydHjYR+ffUroPwF68TUJzrteo=
 			</data>
 			<key>requirement</key>
 			<string>anchor apple generic and identifier "com.apple.dt.runtime.swiftQuartzCore" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = EM3ER8T33A)</string>
@@ -239,7 +243,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			EMVXIQDFD9Ol7dBJAMRuDFDz74g=
+			6Fj11f+zLFFS4lNtkIlrQI8+Z3c=
 			</data>
 			<key>requirement</key>
 			<string>anchor apple generic and identifier "com.apple.dt.runtime.swiftXPC" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = EM3ER8T33A)</string>
@@ -248,7 +252,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			62v12w4RkQQ1Mp+h8wrqf2JOZ9c=
+			wgW+q7Bn+PaEk9ppLvWB3KAFkoY=
 			</data>
 			<key>requirement</key>
 			<string>anchor apple generic and identifier "com.apple.dt.runtime.swiftos" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = EM3ER8T33A)</string>
@@ -257,11 +261,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			d1Nmvp3vgrkQvMghePD5sME2WbQ=
+			TphpLwoSKfOH+zGdYSbPbKj4SZ8=
 			</data>
 			<key>hash2</key>
 			<data>
-			RiP+JlOzn6c5l24CjnLSHCHmKs9yTH+xUpP9tdMUg6o=
+			r5fLOpfqRwT/6YDUzp9URw1qiqo1gWHim9PxsyQgbxM=
+			</data>
+		</dict>
+		<key>Resources/BackgroundWindow.storyboardc/11N-Zl-h0V-view-P65-EE-Py9.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Z5ojRSUz17uLrNvm59s7mk61aj8=
+			</data>
+			<key>hash2</key>
+			<data>
+			bYnmAl/ZgfRk7oUcyppYR0OkfjQPU+ow7jaHacjt6XY=
+			</data>
+		</dict>
+		<key>Resources/BackgroundWindow.storyboardc/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2/KyYuUM0DRpQlexSl39viv1ILc=
+			</data>
+			<key>hash2</key>
+			<data>
+			JCs2jPQYlyUxQmlhLlQ9vCmL4+ajo43Ct588ciI9RXI=
+			</data>
+		</dict>
+		<key>Resources/BackgroundWindow.storyboardc/backgroundWindow.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			58JwPDyCLCU2EO+uVePmWWF9IN4=
+			</data>
+			<key>hash2</key>
+			<data>
+			lXuOmuPRSqpYACgDR1aPgem72foB1TEC60873usWBuE=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Localizable.strings</key>
@@ -275,92 +312,70 @@
 			WLzy7SXpqiGWhfHmM83Mh2Myu9sY0GvuPdw1X0iLLJA=
 			</data>
 		</dict>
-		<key>Resources/Base.lproj/SplashBuddy.storyboardc/67C-xF-QMY-view-t0F-VP-Mjb.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			qrbvyX8klMgTqjpWk50EzvCRE74=
-			</data>
-			<key>hash2</key>
-			<data>
-			uVignTAng3loeIcY/TPpIuTq3pHGhKnpVvQjuHqGr9I=
-			</data>
-		</dict>
 		<key>Resources/Base.lproj/SplashBuddy.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/6DBhKzVeOZicB5Vdw3z37zu+Bk=
+			Vi/8QPcU9M6079ICIacvd7uRdhg=
 			</data>
 			<key>hash2</key>
 			<data>
-			jv6d2mm689fX0ipx6DXYRUt/WKBtJdsWWox38yEamo0=
+			pF4haaYUgiWDlT4JlY/8AVmhLitfkmMFHHnkHyvk1M8=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/SplashBuddy.storyboardc/MainMenu.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KhLWh2WMmeAd88p/oRWzC/OaG+I=
+			jSFH4AgBM0vdTo8zGbaqMm20um8=
 			</data>
 			<key>hash2</key>
 			<data>
-			pBa+q6aE0l7EBle76Y55dEIr2Yy0bG1x+GuO3LJfOCw=
-			</data>
-		</dict>
-		<key>Resources/Base.lproj/SplashBuddy.storyboardc/backgroundWindow.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3lvGsyXIXSmBurIstrOx1ja/NQ4=
-			</data>
-			<key>hash2</key>
-			<data>
-			gB8O3DM67O25uobyZBam48dUH5H1yr74rQ9SLDvaM9g=
+			/IAtcq8dhWdV+d56UoQ1MLDmrFVMOlrEWbJsrmlo/48=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/SplashBuddy.storyboardc/mainView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			h5HZFbBKW2PpxIxIt8WmBcvt8eE=
+			9bH4ycBwmcsK9emxCHRP+v++4mA=
 			</data>
 			<key>hash2</key>
 			<data>
-			TjRVgn0UKgI3430Rjzy9LjPFnGtalF/EIakI4zCVEcI=
+			adnpGZTGDklkOabQVd/0ggD5JuGu2BEClE9Kc9H1kyM=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/SplashBuddy.storyboardc/mainWindow.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Sx2ASOQBQtDEGNSjAEkugbAyuSE=
+			1FFmV6w3DWjfbsfBmyOeXe3w2cM=
 			</data>
 			<key>hash2</key>
 			<data>
-			TAmTf4GIvRgn9tf5fhC5uplx1HKmyZLBkSWCRPHgjYs=
+			5/GaGahEt6pNbhavsoq02xxw+I2E88cwhVUflEJrvZ8=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/SplashBuddy.storyboardc/qDQ-T9-zeE-view-VI7-LS-rJR.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xb+rxhYYuEkmuYnVwnl8P6AXTBY=
+			49XIaxIfwJDOnaut9THOexsWTEg=
 			</data>
 			<key>hash2</key>
 			<data>
-			W6ytwQUIv3vSpElO2hLTqYQN1i74ibbLz394tivAXUM=
+			ZSBO7X+fQiQ7Z5ha+T+bR6JKEWl077HvzYHHyRp3uz0=
 			</data>
 		</dict>
 		<key>Resources/archived-expanded-entitlements.xcent</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WajPA2B3sb1D6ujh899t1vhoT+8=
+			l+mvR9Qw/OwwVYD2MlpmDebI6AU=
 			</data>
 			<key>hash2</key>
 			<data>
-			Pct2jkCJ6j3TGA9v8cbxFfZt0MhxMLcEosA4Wuohzcc=
+			m6ESqroA0O00uPO5/hCPBTDS1OnD/HezQvVnCCcbYpI=
 			</data>
 		</dict>
 		<key>Resources/de.lproj/Localizable.strings</key>

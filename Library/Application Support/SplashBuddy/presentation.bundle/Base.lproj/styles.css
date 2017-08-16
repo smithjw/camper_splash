@@ -15,7 +15,7 @@ body {
   background-image: url("background-coral.png");
   background-size: cover;
   color: #3e4543;
-  font-size: 1.5em;
+  font-size: 1.25em;
   font-family: "Ideal Sans", helvetica;
   font-weight: lighter;
   margin: 0;
@@ -33,7 +33,7 @@ a:hover {
 h1 {
   text-align: center;
   margin: 0;
-  font-size: 2em;
+  font-size: 1.75em;
   font-weight: lighter;
 }
 h2 {
@@ -46,7 +46,10 @@ h3 {
 }
 
 .content {
-  padding: 1em 5em;
+  padding: 10px 20px;
+}
+.content2 {
+  width: 90%;
 }
 .content-columns {
   /* Setting relative positioning allows for
@@ -71,11 +74,7 @@ h3 {
 .content-columns>.content-column-left, .content-columns>.content-column-right {
   /* Non-IE/Win */
 }
-img {
-  border: 2px solid #fff;
-  padding: 2px;
-  margin: 2px;
-}
+
 a:hover img {
   border: 2px solid #DE5961;
 }

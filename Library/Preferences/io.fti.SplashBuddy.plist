@@ -50,6 +50,18 @@
 			<key>canContinue</key>
 			<false/>
 			<key>description</key>
+			<string>VPN Connection</string>
+			<key>displayName</key>
+			<string>Viscosity</string>
+			<key>iconRelativePath</key>
+			<string>Viscosity.png</string>
+			<key>packageName</key>
+			<string>Viscosity</string>
+		</dict>
+		<dict>
+			<key>canContinue</key>
+			<false/>
+			<key>description</key>
 			<string>Document Sync</string>
 			<key>displayName</key>
 			<string>Box Sync</string>
