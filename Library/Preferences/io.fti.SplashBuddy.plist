@@ -14,18 +14,6 @@
 			<key>canContinue</key>
 			<false/>
 			<key>description</key>
-			<string>Video Conferencing</string>
-			<key>displayName</key>
-			<string>Zoom</string>
-			<key>iconRelativePath</key>
-			<string>Zoom.png</string>
-			<key>packageName</key>
-			<string>Zoom</string>
-		</dict>
-		<dict>
-			<key>canContinue</key>
-			<false/>
-			<key>description</key>
 			<string>Communications</string>
 			<key>displayName</key>
 			<string>Slack</string>
@@ -33,6 +21,18 @@
 			<string>Slack.png</string>
 			<key>packageName</key>
 			<string>Slack</string>
+		</dict>
+		<dict>
+			<key>canContinue</key>
+			<false/>
+			<key>description</key>
+			<string>Video Conferencing</string>
+			<key>displayName</key>
+			<string>Zoom</string>
+			<key>iconRelativePath</key>
+			<string>Zoom.png</string>
+			<key>packageName</key>
+			<string>Zoom</string>
 		</dict>
 		<dict>
 			<key>canContinue</key>
