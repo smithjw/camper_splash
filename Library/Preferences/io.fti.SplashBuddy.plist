@@ -64,9 +64,9 @@
 			<key>description</key>
 			<string>Document Sync</string>
 			<key>displayName</key>
-			<string>Box Sync</string>
+			<string>Sync</string>
 			<key>iconRelativePath</key>
-			<string>BoxSync.png</string>
+			<string>Sync.png</string>
 			<key>packageName</key>
 			<string>BoxSync</string>
 		</dict>
