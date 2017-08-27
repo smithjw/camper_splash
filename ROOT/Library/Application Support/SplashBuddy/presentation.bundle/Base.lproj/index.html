@@ -6,42 +6,71 @@
 		<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 		<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 		<script src="jquery-3.2.1.min.js"></script>
+		<style>
+		img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+		}
+		</style>
 	</head>
 
 	<body>
 		<p>
-		<h1>Culture Amp Mac Setup</h1>
+		<h1>Culture Amp Onboarding</h1>
 		<div class="content">
 			<div class="carousel">
   			<div>
+					<img src="enso-charcoal.png" alt="Enso" style="width:128px;height:128px;">
+					<br>
+					<p>Welcome to CAmp!
 					<p>Sit back and relaxy while we install some commonly used apps for you.
   				<p>Once completed, your Mac will automatically logout
   				<p>Enjoy your new Mac!
 				</div>
 				<div>
+					<img src="Jamf.png" alt="Jamf" style="width:128px;height:128px;">
+					<br>
+					<p>Jamf is a macOS management framework and MDM that is used to take the burden off CAmpers from some common tasks.
+					<p>With Jamf we ensure that your Mac is always up-to-date and meets all of our Security requirements.
+					<p>If you'd like some more information on how Jamf works, reach out to @james on Slack.
+				</div>
+				<div>
+					<br>
 					<img src="Slack.png" alt="Slack" style="width:128px;height:128px;">
-					<br>Slack is used for internal communications at Culture Amp
+					<br>
+					<p>Slack is used for internal communications at Culture Amp
+					<p>All day-to-day communication should happen in Slack.
+					<p>You will be automatically invited to a number of channels relevant to your position, but feel free to explore and join any that interest you (we have almost 600 of them 😱).
+
 				</div>
 				<div>
+					<br>
 					<img src="Zoom.png" alt="Zoom" style="width:128px;height:128px;">
-					<br>Zoom is used for video calls
+					<br>
+					<p>Zoom is a video conference and chat provider that we use throughout CAmp.
+					<p>It enables us to bridge the geographic gap between all offices.
 				</div>
 				<div>
+					<br>
 					<img src="Chrome.png" alt="Google Chrome" style="width:128px;height:128px;">
-					<br>This is some information about xxx
+					<br>
+					<p>Google Chrome is the preferred browser at CAmp.
+					<p>It is a fast, simple, and secure browser for all your devices.
 				</div>
 				<div>
+					<br>
 					<img src="Viscosity.png" alt="Viscosity" style="width:128px;height:128px;">
-					<br>This is some information about xxx
+					<br>
+					<p>Viscosity is a VPN application that is used to connect to secure resources at CAmp.
+					<p>You'll learn more about this during your security induction.
 				</div>
 				<div>
-					<img src="BoxSync.png" alt="Box Sync" style="width:128px;height:128px;">
-					<img src="FileStream.png" alt="Google Drive File Stream" style="width:128px;height:128px;">
-					<br>This is some information about xxx
-				</div>
-				<div>
+					<br>
 					<img src="FileVault.png" alt="FileVault" style="width:128px;height:128px;">
-					<br>This is some information about xxx
+					<br>
+					<p>FileVault is macOS full-disk encryption and uses XTS-AES-128 encryption with a 256-bit key to help prevent unauthorized access to the information on your startup disk.
+					<p>It is automatically enabled by Jamf so that your data is secure from day one.
 				</div>
 			</div>
 		</div>
@@ -57,7 +86,8 @@
  					autoplay: true,
  					autoplaySpeed: 10000,
 					arrows: false,
-
+					dots: true,
+					draggable: false
 	      });
 	    });
 	  </script>
