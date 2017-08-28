@@ -21,6 +21,11 @@ body {
   margin: 0;
   padding: 0;
 }
+img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 8em
+}
 :link {
   color: #0000FF;
 }
@@ -46,7 +51,8 @@ h3 {
 }
 
 .content {
-  padding: 10px 20px;
+  padding: 10px 75px;
+  text-align: center;
 }
 .content2 {
   width: 90%;
