@@ -80,7 +80,7 @@
 			<key>iconRelativePath</key>
 			<string>Dock.png</string>
 			<key>packageName</key>
-			<string>Dock</string>
+			<string>dockutil</string>
 		</dict>
 		<dict>
 			<key>canContinue</key>
