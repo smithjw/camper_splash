@@ -16,13 +16,13 @@
 			<key>canContinue</key>
 			<false/>
 			<key>description</key>
-			<string>Communications</string>
+			<string>Web Browser</string>
 			<key>displayName</key>
-			<string>Slack</string>
+			<string>Google Chrome</string>
 			<key>iconRelativePath</key>
-			<string>Slack.png</string>
+			<string>Chrome.png</string>
 			<key>packageName</key>
-			<string>Slack</string>
+			<string>Google Chrome</string>
 		</dict>
 		<dict>
 			<key>canContinue</key>
@@ -40,13 +40,13 @@
 			<key>canContinue</key>
 			<false/>
 			<key>description</key>
-			<string>Web Browser</string>
+			<string>Communications</string>
 			<key>displayName</key>
-			<string>Google Chrome</string>
+			<string>Slack</string>
 			<key>iconRelativePath</key>
-			<string>Chrome.png</string>
+			<string>Slack.png</string>
 			<key>packageName</key>
-			<string>Google Chrome</string>
+			<string>Slack</string>
 		</dict>
 		<dict>
 			<key>canContinue</key>
@@ -64,49 +64,13 @@
 			<key>canContinue</key>
 			<false/>
 			<key>description</key>
-			<string>Document Sync</string>
+			<string>Unified Login</string>
 			<key>displayName</key>
-			<string>Sync</string>
+			<string>NoMAD</string>
 			<key>iconRelativePath</key>
-			<string>Sync.png</string>
+			<string>NoMAD.png</string>
 			<key>packageName</key>
-			<string>BoxSync</string>
-		</dict>
-		<dict>
-			<key>canContinue</key>
-			<false/>
-			<key>description</key>
-			<string>Setup User Dock</string>
-			<key>displayName</key>
-			<string>Dock</string>
-			<key>iconRelativePath</key>
-			<string>Dock.png</string>
-			<key>packageName</key>
-			<string>dockutil</string>
-		</dict>
-		<dict>
-			<key>canContinue</key>
-			<false/>
-			<key>description</key>
-			<string>Enable FileVault</string>
-			<key>displayName</key>
-			<string>FileVault 2</string>
-			<key>iconRelativePath</key>
-			<string>FileVaultIcon.png</string>
-			<key>packageName</key>
-			<string>FV2EnabledMarker</string>
-		</dict>
-		<dict>
-			<key>canContinue</key>
-			<false/>
-			<key>description</key>
-			<string>Running Inventory</string>
-			<key>displayName</key>
-			<string>JAMF</string>
-			<key>iconRelativePath</key>
-			<string>jamf.png</string>
-			<key>packageName</key>
-			<string>Update Inventory</string>
+			<string>NoMADLoginOkta</string>
 		</dict>
 		<dict>
 			<key>canContinue</key>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>17B35a</string>
+	<string>17E199</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -21,36 +21,34 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.1</string>
+	<string>1.2.2</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>15</string>
+	<string>24</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>9A235</string>
+	<string>9C40b</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>17A360</string>
+	<string>17C76</string>
 	<key>DTSDKName</key>
 	<string>macosx10.13</string>
 	<key>DTXcode</key>
-	<string>0900</string>
+	<string>0920</string>
 	<key>DTXcodeBuild</key>
-	<string>9A235</string>
+	<string>9C40b</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>10.12</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2016-2017 François Levaux-Tiffreau. All rights reserved.</string>
+	<string>Copyright © 2016-2018 Amaris Technologies GmbH. All rights reserved.</string>
 	<key>NSMainStoryboardFile</key>
 	<string>SplashBuddy</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
-	<key>UIMainStoryboardFile</key>
-	<string>SplashBuddy</string>
 </dict>
 </plist>

@@ -1,6 +1,5 @@
 #!/bin/bash
 app="/Library/Application Support/SplashBuddy/SplashBuddy.app"
-loggedInUser=$(/bin/ls -l /dev/console | /usr/bin/awk '{ print $3 }')
 doneFile="/Users/Shared/.SplashBuddyDone"
 
 # Check if:
@@ -10,8 +9,6 @@ doneFile="/Users/Shared/.SplashBuddyDone"
 # - Application is not already running
 
 if [ -f "$app"/Contents/MacOS/SplashBuddy ] \
-	&& [ "$loggedInUser" != "_mbusersetup" ] \
-	&& [ $(pgrep Finder | wc -l) -gt 0 ] \
 	&& [ ! -f "${doneFile}" ]; then
 
 	echo "Opening SplashBuddy"

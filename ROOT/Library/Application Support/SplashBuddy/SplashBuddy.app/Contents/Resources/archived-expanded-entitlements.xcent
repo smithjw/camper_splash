@@ -4,8 +4,6 @@
 <dict>
 	<key>com.apple.security.app-sandbox</key>
 	<true/>
-	<key>com.apple.security.get-task-allow</key>
-	<true/>
 	<key>com.apple.security.network.client</key>
 	<true/>
 	<key>com.apple.security.temporary-exception.apple-events</key>
@@ -16,6 +14,10 @@
 	<array>
 		<string>/private/var/log/jamf.log</string>
 		<string>/Library/Application Support/SplashBuddy/</string>
+	</array>
+	<key>com.apple.security.temporary-exception.files.absolute-path.read-write</key>
+	<array>
+		<string>/private/tmp/SplashBuddy/</string>
 	</array>
 </dict>
 </plist>
